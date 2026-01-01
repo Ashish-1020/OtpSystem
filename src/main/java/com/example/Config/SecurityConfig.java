@@ -27,7 +27,7 @@ public class SecurityConfig {
                 .formLogin(form -> form.disable())
 
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/auth/send-otp").permitAll()
+                        .requestMatchers("/auth/**").permitAll()
                         .anyRequest().permitAll()
                 );
 

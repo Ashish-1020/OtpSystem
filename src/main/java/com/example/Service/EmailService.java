@@ -1,5 +1,6 @@
 package com.example.Service;
 
+import com.example.dto.OtpVerificationResult;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
